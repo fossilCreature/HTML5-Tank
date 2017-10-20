@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Codename: Scorched Earth Worms Tank Game</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src='scripts/Box2dWeb-2.1.a.3.min.js'></script>
+</head>
+<body>
+<header class="logo">HTML5 Tanks</header>
+<div class="container">
+	<div class="canvasSection">
+		<canvas id='tank-canvas' width='800' height='500'></canvas>
+		<canvas id='controls' width='800' height='60'></canvas>
+	</div>
+	<div class="chatSection">
+		<form>
+			<div id="chatBox"></div>
+			<textarea id="chatInput" name="chatInputBox" maxlength="255" autofocus>chat disabled</textarea>
+			<div class="chatButton">Enter</div>
+		</form>
+		<div class="info">
+			
+			<p>A and d keys to move.</p>
+			<p>Default behavior of mouse clicks and keyboard removed. This disables when mouse is outside of canvas.</p>
+			<p>The W key changes weapon.</p>
+		</div>
+	</div>
+</div>
+<footer>Copyright 2013</footer>
+	
+</body>
+<script type="text/javascript" src='tanks-01.js'></script>
+</html>
